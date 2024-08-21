@@ -1,0 +1,76 @@
+<div class="blog-header">
+  <div class="blog-content">
+    <div class="blog-title">Featured Post</div>
+    <div class="blog-long-title">Step-by-step guide to choosing great font pairs</div>
+    <div class="name-date">By<div class="blue-name">John Doe</div> l May 23, 2022 </div>
+    <div class="blog-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+      pariatur.
+      Excepteur sint occaecat cupidatat non proident.</div>
+    <button class="read-more">Read More ></button>
+  </div>
+  <div class="blog-pic">
+    <img
+      src="/assets/man-in-white-dress-shirt-sitting-on-black-rolling-chair-while-facing-black-computer-set-and-smiling-840996.svg"
+      alt="">
+  </div>
+</div>
+
+<div class="horizontall"></div>
+
+<div class="card-container">
+  <div class="card">
+    <img src="/assets/two-women-in-front-of-dry-erase-board-1181533.svg" alt="">
+    <div class="right-side">
+      <div class="heading">STARTUP</div>
+      <div class="title2">Design tips for designers that cover everything you need</div>
+      <div class="content">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident.</div>
+    </div>
+  </div>
+  <div class="card">
+    <img src="/assets/photo-of-people-doing-handshakes-3183197.svg" alt="">
+    <div class="right-side">
+      <div class="heading">BUSINESS</div>
+      <div class="title2">How to build rapport with your web design clients</div>
+      <div class="content"></div>
+    </div>
+  </div>
+  <div class="card">
+    <img src="/assets/photo-of-woman-looking-at-man-3183173.svg" alt="">
+    <div class="right-side">
+      <div class="heading">STARTUP</div>
+      <div class="title2">Logo design trends to avoid in 2022</div>
+      <div class="content">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident.</div>
+    </div>
+  </div>
+  <div class="card">
+    <img src="/assets/photo-of-people-walking-on-hallway-3182811.svg" alt="">
+    <div class="right-side">
+      <div class="heading">TECHNOLOGY</div>
+      <div class="title2"></div>
+      <div class="content">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident.</div>
+    </div>
+  </div>
+  <div class="card">
+    <img src="/assets/two-women-in-front-of-dry-erase-board-1181533.svg" alt="">
+    <div class="right-side">
+      <div class="heading">ECONOMY</div>
+      <div class="title2">Font sizes in UI design: The complete guide to follow</div>
+      <div class="content">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident.</div>
+    </div>
+  </div>
+</div>
+
+<div class="pagination"> <img src="/assets/Pagination.svg" alt=""> </div>
+
+<div class="category-title">All Categories</div>
+<div class="categorys">
+  @for(category of categorys; track category.id){
+  <app-category-card [category]="category" />
+  }
+</div>
+
+<app-join-team></app-join-team>

@@ -1,0 +1,133 @@
+.category-title {
+    font-size: 36px;
+    font-family: 'Sen';
+    font-weight: 700;
+    letter-spacing: -2px;
+    line-height: 48px;
+    margin: 80px;
+    margin-bottom: 48px;
+}
+
+.blog-header {
+    display: flex;
+    flex-direction: row;
+    background-color: #F4F0F8;
+}
+
+.read-more {
+    background-color: #FFD050;
+    color: #232536;
+    border: none;
+    // padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 32px;
+    font-weight: 700;
+    font-family: 'Sen';
+    line-height: 24px;
+    width: 204px;
+    height: 56px;
+}
+
+.blog-title {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Inter';
+    line-height: 20px;
+    letter-spacing: 3px;
+}
+
+.blog-pic {
+    padding: 80px;
+}
+
+.blog-long-title {
+    font-size: 36px;
+    font-family: 'Sen';
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;
+    margin-top: 20px;
+}
+
+.name-date {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-top: 16px;
+}
+
+.blue-name {
+    color: #592EA9;
+}
+
+.blog-text {
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: 400;
+    line-height: 28px;
+    color: #6D6E76;
+    margin-top: 16px;
+}
+
+.blog-content {
+    padding: 80px;
+}
+
+.horizontall {
+    border-bottom: solid #D0D1D3 1px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+.card-container {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    padding: 55px;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.heading {
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 3px;
+    color: #592EA9;
+}
+
+.title2 {
+    font-size: 36px;
+    font-family: 'Sen';
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;
+}
+
+.content {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter';
+    line-height: 28px;
+    color: #6D6E76;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}

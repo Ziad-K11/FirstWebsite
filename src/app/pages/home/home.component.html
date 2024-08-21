@@ -1,0 +1,180 @@
+<div class="imgbox">
+  <div class="content">
+    <span>POSTED ON <span class="category">STARTUP</span></span>
+    <h1>Step-by-step guide to choosing great font pairs</h1>
+    <div class="author-info">
+      <span>By <span class="author">James West</span></span>
+      <span class="date"> | May 23, 2022</span>
+    </div>
+    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+      sint occaecat cupidatat non proident.</p>
+    <button class="read-more">Read More ></button>
+  </div>
+</div>
+<div class="posts">
+  <div class="Featured-Post">
+    <h1>Featured Post</h1>
+    <div class="borderdiv">
+      <img src="white-concrete-building-1838640.svg" alt="building" class="buildingimg">
+      <div class="author-info1">
+        <span>By </span><span class="author1">John Doe</span>
+        <span class="date2"> | May 23, 2022</span>
+      </div>
+      <h3 class="bodytext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</h3>
+      <p class="bodytextp">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+      <button class="read-more">Read More ></button>
+    </div>
+  </div>
+  <div class="all-posts">
+    <div class="titleview">
+      <h1 class="title1">All Posts</h1>
+      <span><a class="view">View All</a></span>
+    </div>
+    <div class="item">
+      @for(post of posts ;track post.id){
+      <div class="author-info2">
+        <span class="author2">By <span class="author-name">{{post.name}}</span></span>
+        <span class="date2"> | {{post.date}}</span>
+        <p>{{post.descrption}}</p>
+      </div>
+
+
+      }
+    </div>
+  </div>
+</div>
+
+<div class="shapes">
+  <div class="shape1"></div>
+  <div class="shape2"></div>
+</div>
+<div class="aboutus-mission">
+  <div class="aboutus">
+    <span>ABOUT US</span>
+    <h2>We are a community of content writers who share their learnings</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua.</p>
+    <p class="pread">Read More ></p>
+  </div>
+  <div class="mission">
+    <span>OUR MISSION</span>
+    <h2>Creating valuable content for creatives all around the world</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p>
+
+  </div>
+
+</div>
+
+<h2 class="category-title">Choose A Category</h2>
+<div class="categorys">
+  @for(category of categorys; track category.id){
+  <app-category-card [category]="category" />
+  }
+</div>
+<div class="special-content">
+  <div class="special-content-image">
+    <img src="/assets/close-up-photography-of-man-wearing-sunglasses-1212984.svg">
+  </div>
+  <div class="special-content-text">
+    <span>Why we started </span>
+    <h1>It started out as a simple idea and evolved into our passion</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+    <button class="Discover">Discover our story ></button>
+  </div>
+</div>
+<div class="authors-list">
+  <span class="author-title">List of Authors</span>
+  <div class="authors">
+    <div class="author-div">
+      <img src="/assets/man-in-yellow-button-up-shirt-wearing-black-framed-eyeglasses-7562313.svg" width="128px"
+        height="128px">
+      <span class="creator-name">Floyd Miles</span>
+      <span class="position">Content Writer at Company</span>
+      <div class="icons">
+        <img src="/assets/FBNegative.svg" alt="facebook" class="name">
+        <img src="/assets/TWNegative.svg" alt="twitter" class="name">
+        <img src="/assets/IGNegative.svg" alt="instagram" class="name">
+        <img src="/assets/LINegative.svg" alt="logo" class="name">
+      </div>
+    </div>
+    <div class="author-div">
+      <img src="/assets/woman-in-white-and-black-striped-shirt-wearing-black-sunglasses-3671083.svg" width="128px"
+        height="128px">
+      <span class="creator-name">Dianne Russell</span>
+      <span class="position">Content Writer at Company</span>
+      <div class="icons">
+        <img src="/assets/FBNegative.svg" alt="facebook" class="name">
+        <img src="/assets/TWNegative.svg" alt="twitter" class="name">
+        <img src="/assets/IGNegative.svg" alt="instagram" class="name">
+        <img src="/assets/LINegative.svg" alt="logo" class="name">
+      </div>
+    </div>
+    <div class="author-div">
+      <img src="/assets/fashion-woman-cute-shoes-5704849.svg" width="128px" height="128px">
+      <span class="creator-name">Jenny Wilson</span>
+      <span class="position">Content Writer at Company</span>
+      <div class="icons">
+        <img src="/assets/FBNegative.svg" alt="facebook" class="name">
+        <img src="/assets/TWNegative.svg" alt="twitter" class="name">
+        <img src="/assets/IGNegative.svg" alt="instagram" class="name">
+        <img src="/assets/LINegative.svg" alt="logo" class="name">
+      </div>
+    </div>
+    <div class="author-div">
+      <img src="/assets/content-baker-with-delicious-puff-in-cafeteria-6205509.svg" width="128px" height="128px">
+      <span class="creator-name">Leslie Alexander</span>
+      <span class="position">Content Writer at Company</span>
+      <div class="icons">
+        <div class="icons">
+          <img src="/assets/FBNegative.svg" alt="facebook" class="name">
+          <img src="/assets/TWNegative.svg" alt="twitter" class="name">
+          <img src="/assets/IGNegative.svg" alt="instagram" class="name">
+          <img src="/assets/LINegative.svg" alt="logo" class="name">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="logo-component">
+    <div class="feature-text">
+      <span class="top">We are</span>
+      <br>
+      <span class="bottom">Featured in</span>
+    </div>
+    <img src="/assets/Logo 1.svg" alt="">
+    <img src="/assets/Logo 2.svg" alt="">
+    <img src="/assets/Logo 3.svg" alt="">
+    <img src="/assets/Logo 4.svg" alt="">
+    <img src="/assets/Logo 5.svg" alt="">
+  </div>
+  <div class="testimonials">
+    <div class="testimonials-left">
+      <span class="smalltitle">TESTIMONIALs</span>
+      <span class="test-title">What people say about our blog</span>
+      <p class="lorem-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+    </div>
+    <div class="vl"></div>
+    <div class="message">
+      <div class="textblock">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.</p>
+      </div>
+      <div class="profile">
+        <div class="profile-info">
+          <img src="/assets/profile-picture.svg" alt="profile-picture">
+          <div class="profile-name">
+            <h4>Jonathan Vallem</h4>
+            <p>New york, USA</p>
+          </div>
+        </div>
+        <img class="arrows" src="/assets/arrows.svg" alt="arrows">
+      </div>
+    </div>
+
+  </div>
+  <div>
+    <app-join-team></app-join-team>
+  </div>

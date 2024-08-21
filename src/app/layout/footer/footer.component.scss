@@ -1,0 +1,150 @@
+.footer-container {
+  background: #232536;
+  max-width: 1440px;
+  max-height: 560px;
+  margin-top: 128px;
+  padding: 80px;
+}
+
+.firstline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-titles {
+  display: flex;
+  gap: 24px;
+}
+
+
+.footer-titles a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Inter';
+}
+
+// .footer-col p {
+//   margin: 20px 0;
+//   display: flex;
+//   justify-content: left;
+//   align-items:center;
+//   color: #bfbfbf;
+//   max-width: 350px;
+// }
+
+// .footer-col form {
+//   display: flex;
+//   gap: 15px;
+//   justify-content:center;
+//   align-content:center;
+//   }
+
+// .email-input {
+
+//   background: none;
+
+//   outline: none;
+//   border: 1px solid #7489C6 ;
+//   border-radius: 6px;
+//   caret-color: #fff;
+//   color: #fff;
+// }
+
+// .subscribe input::placeholder {
+//   color: #ccc;
+//   padding-left: 5px;
+// #6D6E76
+// }
+
+
+.icons {
+  display: flex;
+  justify-content: right;
+  gap: 27px;
+}
+
+
+
+
+.subscribe {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #2E3040;
+  border: #4C4C4C 1px;
+  gap: 2rem;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.newstext {
+  color: #FFFFFF;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2px;
+  font-family: 'Sen';
+  flex-basis: 50%;
+  margin: 4rem;
+}
+
+.email-input {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 50%;
+  margin-right: 64px;
+  gap: 24px;
+  align-self: center;
+
+  input {
+    // width: 323px;
+    height: 56px;
+    background: none;
+    width: auto;
+    outline: none;
+    border: 1px solid #4C4C4C;
+    flex-basis: 0;
+    flex-grow: 2;
+    caret-color: #fff;
+    color: #6D6E76;
+    width: 323px;
+  }
+  input::placeholder {
+    color: #6D6E76;
+    padding-left: 25px;
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  button {
+    background: #FFD050;
+    border: none;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+    width: 179px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.2s ease;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Sen';
+    line-height: 24px;
+    flex-basis: 0;
+    flex-grow: 1;
+    color: #232536;
+  }
+}
+
+.contactinfo  {
+  color: #BDBEC3;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
